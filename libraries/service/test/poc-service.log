@@ -1,0 +1,716 @@
+D, [2015-03-07T21:51:46.511959 #23616] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T21:51:46.512066 #23616]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T21:51:46.512107 #23616] DEBUG -- : Executing the command
+D, [2015-03-07T21:51:46.512141 #23616] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T21:51:46.512208 #23616] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T21:51:46.512232 #23616] DEBUG -- : Args: []
+D, [2015-03-07T21:51:46.512261 #23616] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T21:51:46.513422 #23616] DEBUG -- : Finding config.ru
+D, [2015-03-07T21:51:46.513471 #23616] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T21:51:46.513498 #23616] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T21:51:46.513524 #23616] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T21:51:46.513549 #23616] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T21:51:46.513572 #23616] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T21:51:46.513594 #23616] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T21:51:46.513618 #23616] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T21:51:46.513640 #23616] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T21:51:46.513664 #23616] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T21:51:46.513692 #23616] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T21:51:46.513715 #23616] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T21:51:46.513739 #23616] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T21:51:46.513761 #23616] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T21:51:46.513800 #23616] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T21:51:46.986173 #23616]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T21:51:46.986936 #23616] DEBUG -- : Validating Database Properties
+D, [2015-03-07T21:51:49.208231 #23624] DEBUG -- : Start Request
+D, [2015-03-07T21:51:49.212442 #23624] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T21:51:49.222814 #23624] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd5659a96c75c48000001'), addresses: [], created_at: 2015-03-08 04:51:49 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 04:51:49 UTC>
+D, [2015-03-07T21:51:49.222921 #23624] DEBUG -- : Poc
+D, [2015-03-07T21:51:50.568899 #23672] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T21:51:50.568980 #23672]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T21:51:50.569013 #23672] DEBUG -- : Executing the command
+D, [2015-03-07T21:51:50.569053 #23672] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T21:51:50.569120 #23672] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T21:51:50.569143 #23672] DEBUG -- : Args: []
+D, [2015-03-07T21:51:50.569173 #23672] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T21:51:50.570301 #23672] DEBUG -- : Finding config.ru
+D, [2015-03-07T21:51:50.570345 #23672] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T21:51:50.570369 #23672] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T21:51:50.570393 #23672] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T21:51:50.570415 #23672] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T21:51:50.570437 #23672] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T21:51:50.570457 #23672] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T21:51:50.570479 #23672] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T21:51:50.570500 #23672] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T21:51:50.570521 #23672] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T21:51:50.570556 #23672] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T21:51:50.570579 #23672] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T21:51:50.570601 #23672] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T21:51:50.570622 #23672] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T21:51:50.570659 #23672] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T21:51:51.044754 #23672]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T21:51:51.045537 #23672] DEBUG -- : Validating Database Properties
+D, [2015-03-07T21:51:53.269224 #23680] DEBUG -- : Start Request
+D, [2015-03-07T21:51:53.273797 #23680] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T21:51:53.283976 #23680] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd5699a96c75c80000001'), addresses: [], created_at: 2015-03-08 04:51:53 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 04:51:53 UTC>
+D, [2015-03-07T21:51:53.284101 #23680] DEBUG -- : Poc
+D, [2015-03-07T21:51:53.293896 #23680] DEBUG -- : Start Request
+D, [2015-03-07T21:51:53.294259 #23680] DEBUG -- : Executing PUT for endpoint 54fbd5699a96c75c80000001
+D, [2015-03-07T21:51:54.596458 #23728] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T21:51:54.596534 #23728]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T21:51:54.596576 #23728] DEBUG -- : Executing the command
+D, [2015-03-07T21:51:54.596611 #23728] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T21:51:54.596691 #23728] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T21:51:54.596715 #23728] DEBUG -- : Args: []
+D, [2015-03-07T21:51:54.596747 #23728] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T21:51:54.597875 #23728] DEBUG -- : Finding config.ru
+D, [2015-03-07T21:51:54.597921 #23728] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T21:51:54.597947 #23728] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T21:51:54.597982 #23728] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T21:51:54.598006 #23728] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T21:51:54.598036 #23728] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T21:51:54.598059 #23728] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T21:51:54.598082 #23728] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T21:51:54.598104 #23728] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T21:51:54.598127 #23728] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T21:51:54.598148 #23728] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T21:51:54.598174 #23728] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T21:51:54.598197 #23728] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T21:51:54.598228 #23728] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T21:51:54.598274 #23728] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T21:51:55.080821 #23728]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T21:51:55.081586 #23728] DEBUG -- : Validating Database Properties
+D, [2015-03-07T21:51:57.306987 #23736] DEBUG -- : Start Request
+D, [2015-03-07T21:51:57.309742 #23736] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T21:51:57.318992 #23736] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd56d9a96c75cb8000001'), addresses: [], created_at: 2015-03-08 04:51:57 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 04:51:57 UTC>
+D, [2015-03-07T21:51:57.319086 #23736] DEBUG -- : Poc
+D, [2015-03-07T21:51:57.326792 #23736] DEBUG -- : Start Request
+D, [2015-03-07T21:51:57.327136 #23736] DEBUG -- : Getting all POCs
+D, [2015-03-07T21:51:57.327241 #23736] DEBUG -- : {}
+D, [2015-03-07T21:51:58.675070 #23784] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T21:51:58.675160 #23784]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T21:51:58.675195 #23784] DEBUG -- : Executing the command
+D, [2015-03-07T21:51:58.675229 #23784] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T21:51:58.675296 #23784] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T21:51:58.675328 #23784] DEBUG -- : Args: []
+D, [2015-03-07T21:51:58.675359 #23784] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T21:51:58.676492 #23784] DEBUG -- : Finding config.ru
+D, [2015-03-07T21:51:58.676535 #23784] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T21:51:58.676560 #23784] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T21:51:58.676584 #23784] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T21:51:58.676606 #23784] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T21:51:58.676627 #23784] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T21:51:58.676648 #23784] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T21:51:58.676671 #23784] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T21:51:58.676691 #23784] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T21:51:58.676713 #23784] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T21:51:58.676739 #23784] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T21:51:58.676760 #23784] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T21:51:58.676783 #23784] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T21:51:58.676804 #23784] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T21:51:58.676841 #23784] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T21:51:59.147606 #23784]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T21:51:59.148370 #23784] DEBUG -- : Validating Database Properties
+D, [2015-03-07T21:52:01.354985 #23800] DEBUG -- : Start Request
+D, [2015-03-07T21:52:01.358595 #23800] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T21:52:01.367405 #23800] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd5719a96c75cf8000001'), addresses: [], created_at: 2015-03-08 04:52:01 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 04:52:01 UTC>
+D, [2015-03-07T21:52:01.367494 #23800] DEBUG -- : Poc
+D, [2015-03-07T21:52:02.788077 #23840] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T21:52:02.788167 #23840]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T21:52:02.788207 #23840] DEBUG -- : Executing the command
+D, [2015-03-07T21:52:02.788247 #23840] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T21:52:02.788329 #23840] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T21:52:02.788368 #23840] DEBUG -- : Args: []
+D, [2015-03-07T21:52:02.788405 #23840] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T21:52:02.789731 #23840] DEBUG -- : Finding config.ru
+D, [2015-03-07T21:52:02.789780 #23840] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T21:52:02.789807 #23840] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T21:52:02.789834 #23840] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T21:52:02.789860 #23840] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T21:52:02.789884 #23840] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T21:52:02.789907 #23840] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T21:52:02.789933 #23840] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T21:52:02.789956 #23840] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T21:52:02.789981 #23840] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T21:52:02.790009 #23840] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T21:52:02.790040 #23840] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T21:52:02.790066 #23840] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T21:52:02.790089 #23840] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T21:52:02.790130 #23840] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T21:52:03.267374 #23840]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T21:52:03.268126 #23840] DEBUG -- : Validating Database Properties
+D, [2015-03-07T21:52:05.494611 #23856] DEBUG -- : Start Request
+D, [2015-03-07T21:52:05.498923 #23856] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T21:52:05.509290 #23856] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd5759a96c75d30000001'), addresses: [], created_at: 2015-03-08 04:52:05 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 04:52:05 UTC>
+D, [2015-03-07T21:52:05.509395 #23856] DEBUG -- : Poc
+D, [2015-03-07T21:52:05.520034 #23856] DEBUG -- : Start Request
+D, [2015-03-07T21:52:05.520507 #23856] DEBUG -- : Getting POC #{params[:poc_id]}
+D, [2015-03-07T21:52:05.522546 #23856] DEBUG -- : [:include_root_in_json, :include_root_in_json?, :include_root_in_json=, :attribute_aliases, :attribute_aliases?, :attribute_method_matchers, :attribute_method_matchers?, :_accessible_attributes, :_accessible_attributes?, :_accessible_attributes=, :protected_attributes, :protected_attributes?, :protected_attributes=, :_scopes, :_scopes?, :_scopes=, :record_timestamps, :record_timestamps?, :record_timestamps=, :validation_context, :validation_context=, :_validate_callbacks, :_validate_callbacks?, :_validate_callbacks=, :_validators, :_validators?, :_validators=, :_validation_callbacks, :_validation_callbacks?, :_validation_callbacks=, :_save_callbacks, :_save_callbacks?, :_save_callbacks=, :_create_callbacks, :_create_callbacks?, :_create_callbacks=, :_update_callbacks, :_update_callbacks?, :_update_callbacks=, :_destroy_callbacks, :_destroy_callbacks?, :_destroy_callbacks=, :_touch_callbacks, :_touch_callbacks?, :_touch_callbacks=, :first_name_before_type_cast, :middle_name_before_type_cast, :last_name_before_type_cast, :created_by_before_type_cast, :created_at_before_type_cast, :updated_at_before_type_cast, :addresses, :addresses=, :phone_numbers, :phone_numbers=, :emails, :emails=, :marshal_dump, :marshal_load, :save, :delete, :add_to_identity_map, :remove_from_identity_map, :destroy, :touch, :run_callbacks, :valid?, :run_validations!, :validates_inclusion_of, :validates_length_of, :validates_size_of, :validates_presence_of, :validates_format_of, :validates_numericality_of, :validates_exclusion_of, :validates_absence_of, :validates_confirmation_of, :validates_acceptance_of, :errors, :invalid?, :read_attribute_for_validation, :validates_with, :update_timestamps, :serializable_attributes, :serializable_hash, :to_xml, :save_to_collection, :to_param, :to_model, :to_key, :new_record?, :read_attribute, :read_attribute_before_type_cast, :write_attribute, :write_key, :attributes=, :update_attributes, :update_attributes!, :filter_protected_attrs, :accessible_attributes, :accessible_attributes?, :filter_inaccessible_attrs, :attribute_inaccessible?, :collection, :database, :unset, :increment, :decrement, :set, :push, :push_all, :pull, :pull_all, :add_to_set, :push_uniq, :pop, :logger, :reload, :clear_changes, :attribute_method?, :changed?, :changed, :changes, :previous_changes, :changed_attributes, :attribute_changed?, :attribute_was, :method_missing, :attribute_missing, :respond_to_without_attributes?, :respond_to?, :_id, :_id_before_type_cast, :_id=, :_id?, :first_name, :first_name=, :first_name?, :middle_name, :middle_name=, :middle_name?, :last_name, :last_name=, :last_name?, :created_by, :created_by=, :created_by?, :created_at, :created_at=, :created_at?, :updated_at, :updated_at=, :updated_at?, :initialize_from_database, :persisted?, :to_mongo, :attributes, :assign, :update_attribute, :id, :id=, :keys, :read_key, :[], :attribute, :[]=, :key_names, :non_embedded_keys, :embedded_keys, :unalias_key, :inspect, :eql?, :==, :hash, :cache_key, :associations, :embedded_associations, :build_proxy, :get_proxy, :save!, :new?, :destroyed?, :_root_document, :as_json, :from_json, :from_xml, :read_attribute_for_serialization, :to_partial_path, :psych_to_yaml, :to_yaml, :to_yaml_properties, :try, :duplicable?, :acts_like?, :blank?, :present?, :presence, :to_query, :try!, :html_safe?, :`, :deep_dup, :in?, :presence_in, :instance_values, :instance_variable_names, :to_json_with_active_support_encoder, :to_json_without_active_support_encoder, :to_json, :with_options, :commands_from, :program_desc, :program_long_desc, :hide_commands_without_desc, :skips_pre, :skips_post, :skips_around, :config_file, :pre, :post, :around, :on_error, :version, :preserve_argv, :use_openstruct, :accept, :exit_now!, :help_now!, :sort_help, :wrap_help_text, :synopsis_format, :program_name, :default_command, :subcommand_option_handling, :arguments, :error_device=, :context_description, :reset, :exe_name, :commands_declaration_order, :version_string, :get_default_command, :run, :config_file_name, :accepts, :parse_config, :clear_nexts, :stderr, :flags, :switches, :commands, :pre_block, :post_block, :around_blocks, :help_sort_type, :help_text_wrap_type, :synopsis_format_type, :override_defaults_based_on_config, :override_command_defaults, :override_default, :argument_handling_strategy, :subcommand_option_handling_strategy, :desc, :d, :long_desc, :arg_name, :arg, :default_value, :flag, :f, :switch, :s, :command, :c, :flags_declaration_order, :switches_declaration_order, :nil?, :===, :=~, :!~, :<=>, :class, :singleton_class, :clone, :dup, :taint, :tainted?, :untaint, :untrust, :untrusted?, :trust, :freeze, :frozen?, :to_s, :methods, :singleton_methods, :protected_methods, :private_methods, :public_methods, :instance_variables, :instance_variable_get, :instance_variable_set, :instance_variable_defined?, :remove_instance_variable, :instance_of?, :kind_of?, :is_a?, :tap, :send, :public_send, :extend, :display, :method, :public_method, :define_singleton_method, :object_id, :to_enum, :enum_for, :require_with_backports, :silence_warnings, :enable_warnings, :with_warnings, :silence_stderr, :silence_stream, :suppress, :capture, :silence, :quietly, :class_eval, :debugger, :breakpoint, :equal?, :!, :!=, :instance_eval, :instance_exec, :__send__, :__id__]
+D, [2015-03-07T21:55:38.142947 #25685] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T21:55:38.143039 #25685]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T21:55:38.143086 #25685] DEBUG -- : Executing the command
+D, [2015-03-07T21:55:38.143120 #25685] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T21:55:38.143185 #25685] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T21:55:38.143210 #25685] DEBUG -- : Args: []
+D, [2015-03-07T21:55:38.143239 #25685] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T21:55:38.144364 #25685] DEBUG -- : Finding config.ru
+D, [2015-03-07T21:55:38.144407 #25685] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T21:55:38.144431 #25685] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T21:55:38.144456 #25685] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T21:55:38.144478 #25685] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T21:55:38.144500 #25685] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T21:55:38.144529 #25685] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T21:55:38.144552 #25685] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T21:55:38.144572 #25685] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T21:55:38.144594 #25685] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T21:55:38.144619 #25685] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T21:55:38.144640 #25685] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T21:55:38.144662 #25685] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T21:55:38.144681 #25685] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T21:55:38.144717 #25685] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T21:55:38.611582 #25685]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T21:55:38.612354 #25685] DEBUG -- : Validating Database Properties
+D, [2015-03-07T21:55:40.835675 #25701] DEBUG -- : Start Request
+D, [2015-03-07T21:55:40.839887 #25701] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T21:55:40.850134 #25701] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd64c9a96c76465000001'), addresses: [], created_at: 2015-03-08 04:55:40 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 04:55:40 UTC>
+D, [2015-03-07T21:55:40.850240 #25701] DEBUG -- : Poc
+D, [2015-03-07T21:55:42.124493 #25741] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T21:55:42.124573 #25741]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T21:55:42.124606 #25741] DEBUG -- : Executing the command
+D, [2015-03-07T21:55:42.124639 #25741] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T21:55:42.124719 #25741] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T21:55:42.124755 #25741] DEBUG -- : Args: []
+D, [2015-03-07T21:55:42.124785 #25741] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T21:55:42.125930 #25741] DEBUG -- : Finding config.ru
+D, [2015-03-07T21:55:42.125974 #25741] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T21:55:42.126000 #25741] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T21:55:42.126029 #25741] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T21:55:42.126054 #25741] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T21:55:42.126076 #25741] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T21:55:42.126097 #25741] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T21:55:42.126119 #25741] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T21:55:42.126141 #25741] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T21:55:42.126162 #25741] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T21:55:42.126187 #25741] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T21:55:42.126208 #25741] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T21:55:42.126230 #25741] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T21:55:42.126251 #25741] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T21:55:42.126287 #25741] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T21:55:42.596970 #25741]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T21:55:42.597734 #25741] DEBUG -- : Validating Database Properties
+D, [2015-03-07T21:55:44.819998 #25757] DEBUG -- : Start Request
+D, [2015-03-07T21:55:44.824233 #25757] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T21:55:44.834430 #25757] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd6509a96c7649d000001'), addresses: [], created_at: 2015-03-08 04:55:44 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 04:55:44 UTC>
+D, [2015-03-07T21:55:44.834533 #25757] DEBUG -- : Poc
+D, [2015-03-07T21:55:46.219468 #25797] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T21:55:46.219553 #25797]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T21:55:46.219588 #25797] DEBUG -- : Executing the command
+D, [2015-03-07T21:55:46.219629 #25797] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T21:55:46.219696 #25797] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T21:55:46.219728 #25797] DEBUG -- : Args: []
+D, [2015-03-07T21:55:46.219766 #25797] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T21:55:46.220885 #25797] DEBUG -- : Finding config.ru
+D, [2015-03-07T21:55:46.220928 #25797] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T21:55:46.220952 #25797] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T21:55:46.220976 #25797] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T21:55:46.220998 #25797] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T21:55:46.221024 #25797] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T21:55:46.221046 #25797] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T21:55:46.221068 #25797] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T21:55:46.221089 #25797] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T21:55:46.221110 #25797] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T21:55:46.221136 #25797] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T21:55:46.221157 #25797] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T21:55:46.221179 #25797] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T21:55:46.221199 #25797] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T21:55:46.221235 #25797] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T21:55:46.693514 #25797]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T21:55:46.694314 #25797] DEBUG -- : Validating Database Properties
+D, [2015-03-07T21:55:48.916590 #25813] DEBUG -- : Start Request
+D, [2015-03-07T21:55:48.920912 #25813] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T21:55:48.931187 #25813] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd6549a96c764d5000001'), addresses: [], created_at: 2015-03-08 04:55:48 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 04:55:48 UTC>
+D, [2015-03-07T21:55:48.931287 #25813] DEBUG -- : Poc
+D, [2015-03-07T21:55:48.942142 #25813] DEBUG -- : Start Request
+D, [2015-03-07T21:55:48.942430 #25813] DEBUG -- : Executing PUT for endpoint 
+E, [2015-03-07T21:55:48.945689 #25813] ERROR -- : Application error - Mongo::OperationFailure
+  Message: 11000: E11000 duplicate key error index: poc.pocs.$path_1_git_hash_1  dup key: { : null, : null }
+  Request URL: http://127.0.0.1:4242/poc-service/poc
+  Request IP:  127.0.0.1
+    /home/sean.humbarger/.gem/ruby/gems/mongo-1.12.0/lib/mongo/networking.rb:112:in `send_message_with_gle'
+    /home/sean.humbarger/.gem/ruby/gems/mongo-1.12.0/lib/mongo/collection_writer.rb:227:in `block in send_write_operation'
+    /home/sean.humbarger/.gem/ruby/gems/mongo-1.12.0/lib/mongo/functional/logging.rb:55:in `block in instrument'
+    /home/sean.humbarger/.gem/ruby/gems/mongo-1.12.0/lib/mongo/functional/logging.rb:20:in `instrument'
+    /home/sean.humbarger/.gem/ruby/gems/mongo-1.12.0/lib/mongo/functional/logging.rb:54:in `instrument'
+    /home/sean.humbarger/.gem/ruby/gems/mongo-1.12.0/lib/mongo/collection_writer.rb:224:in `send_write_operation'
+    /home/sean.humbarger/.gem/ruby/gems/mongo-1.12.0/lib/mongo/collection.rb:1106:in `send_write'
+    /home/sean.humbarger/.gem/ruby/gems/mongo-1.12.0/lib/mongo/collection.rb:419:in `insert'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/querying.rb:136:in `save_to_collection'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/associations.rb:88:in `save_to_collection'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/safe.rb:27:in `save_to_collection'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/querying.rb:126:in `create'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/callbacks.rb:21:in `block in create'
+    /home/sean.humbarger/.gem/ruby/gems/activesupport-4.1.8/lib/active_support/callbacks.rb:82:in `run_callbacks'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/embedded_callbacks.rb:77:in `run_callbacks'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/callbacks.rb:21:in `create'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/querying.rb:121:in `create_or_update'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/callbacks.rb:17:in `block in create_or_update'
+    /home/sean.humbarger/.gem/ruby/gems/activesupport-4.1.8/lib/active_support/callbacks.rb:113:in `call'
+    /home/sean.humbarger/.gem/ruby/gems/activesupport-4.1.8/lib/active_support/callbacks.rb:113:in `call'
+    /home/sean.humbarger/.gem/ruby/gems/activesupport-4.1.8/lib/active_support/callbacks.rb:166:in `block in halting'
+    /home/sean.humbarger/.gem/ruby/gems/activesupport-4.1.8/lib/active_support/callbacks.rb:86:in `call'
+    /home/sean.humbarger/.gem/ruby/gems/activesupport-4.1.8/lib/active_support/callbacks.rb:86:in `run_callbacks'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/embedded_callbacks.rb:77:in `run_callbacks'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/callbacks.rb:17:in `create_or_update'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/querying.rb:103:in `save'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/dirty.rb:17:in `block in save'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/dirty.rb:27:in `clear_changes'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/dirty.rb:17:in `save'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/validations.rb:22:in `save'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/identity_map.rb:87:in `save'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/querying.rb:108:in `save!'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/querying.rb:36:in `block in create!'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/querying.rb:74:in `block in initialize_each'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/querying.rb:72:in `each'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/querying.rb:72:in `initialize_each'
+    /home/sean.humbarger/.gem/ruby/gems/mongo_mapper-0.13.1/lib/mongo_mapper/plugins/querying.rb:34:in `create!'
+    /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/init.rb:168:in `block (2 levels) in <class:Init>'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+    /usr/local/share/gems/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+    /usr/local/share/gems/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+    /usr/local/share/gems/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+    /usr/local/share/gems/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+    /usr/local/share/gems/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+    /usr/local/share/gems/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+    /usr/local/share/gems/gems/rack-1.5.2/lib/rack/nulllogger.rb:9:in `call'
+    /usr/local/share/gems/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+    /usr/local/share/gems/gems/rack-1.5.2/lib/rack/lint.rb:49:in `_call'
+    /usr/local/share/gems/gems/rack-1.5.2/lib/rack/lint.rb:37:in `call'
+    /usr/local/share/gems/gems/rack-1.5.2/lib/rack/showexceptions.rb:24:in `call'
+    /usr/local/share/gems/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+    /usr/local/share/gems/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+    /usr/local/share/gems/gems/rack-1.5.2/lib/rack/chunked.rb:43:in `call'
+    /usr/local/share/gems/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+    /home/sean.humbarger/.gem/ruby/gems/thin-1.6.3/lib/thin/connection.rb:86:in `block in pre_process'
+    /home/sean.humbarger/.gem/ruby/gems/thin-1.6.3/lib/thin/connection.rb:84:in `catch'
+    /home/sean.humbarger/.gem/ruby/gems/thin-1.6.3/lib/thin/connection.rb:84:in `pre_process'
+    /home/sean.humbarger/.gem/ruby/gems/thin-1.6.3/lib/thin/connection.rb:53:in `process'
+    /home/sean.humbarger/.gem/ruby/gems/thin-1.6.3/lib/thin/connection.rb:39:in `receive_data'
+    /home/sean.humbarger/.gem/ruby/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+    /home/sean.humbarger/.gem/ruby/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+    /home/sean.humbarger/.gem/ruby/gems/thin-1.6.3/lib/thin/backends/base.rb:73:in `start'
+    /home/sean.humbarger/.gem/ruby/gems/thin-1.6.3/lib/thin/server.rb:162:in `start'
+    /usr/local/share/gems/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+    /usr/local/share/gems/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+    /usr/local/share/gems/gems/rack-1.5.2/lib/rack/server.rb:141:in `start'
+    /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/service/cli.rb:158:in `block (2 levels) in <module:Cli>'
+    /usr/local/share/gems/gems/gli-2.12.2/lib/gli/command_support.rb:126:in `call'
+    /usr/local/share/gems/gems/gli-2.12.2/lib/gli/command_support.rb:126:in `execute'
+    /usr/local/share/gems/gems/gli-2.12.2/lib/gli/app_support.rb:290:in `block in call_command'
+    /usr/local/share/gems/gems/gli-2.12.2/lib/gli/app_support.rb:303:in `call'
+    /usr/local/share/gems/gems/gli-2.12.2/lib/gli/app_support.rb:303:in `call_command'
+    /usr/local/share/gems/gems/gli-2.12.2/lib/gli/app_support.rb:81:in `run'
+    /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/service/cli.rb:208:in `<module:Cli>'
+    /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/service/cli.rb:19:in `<module:Service>'
+    /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/service/cli.rb:15:in `<top (required)>'
+    /usr/local/share/ruby/site_ruby/rubygems/core_ext/kernel_require.rb:54:in `require'
+    /usr/local/share/ruby/site_ruby/rubygems/core_ext/kernel_require.rb:54:in `require'
+    /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/poc-service-cli.rb:5:in `<top (required)>'
+    /usr/local/share/ruby/site_ruby/rubygems/core_ext/kernel_require.rb:54:in `require'
+    /usr/local/share/ruby/site_ruby/rubygems/core_ext/kernel_require.rb:54:in `require'
+    /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/../bin/poc-service:7:in `<main>'
+D, [2015-03-07T21:55:50.312314 #25853] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T21:55:50.312393 #25853]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T21:55:50.312442 #25853] DEBUG -- : Executing the command
+D, [2015-03-07T21:55:50.312476 #25853] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T21:55:50.312539 #25853] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T21:55:50.312570 #25853] DEBUG -- : Args: []
+D, [2015-03-07T21:55:50.312599 #25853] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T21:55:50.313740 #25853] DEBUG -- : Finding config.ru
+D, [2015-03-07T21:55:50.313782 #25853] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T21:55:50.313806 #25853] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T21:55:50.313830 #25853] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T21:55:50.313861 #25853] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T21:55:50.313884 #25853] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T21:55:50.313904 #25853] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T21:55:50.313925 #25853] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T21:55:50.313946 #25853] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T21:55:50.313968 #25853] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T21:55:50.313988 #25853] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T21:55:50.314013 #25853] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T21:55:50.314043 #25853] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T21:55:50.314064 #25853] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T21:55:50.314100 #25853] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T21:55:50.785685 #25853]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T21:55:50.786466 #25853] DEBUG -- : Validating Database Properties
+D, [2015-03-07T21:55:53.007175 #25869] DEBUG -- : Start Request
+D, [2015-03-07T21:55:53.011409 #25869] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T21:55:53.021586 #25869] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd6599a96c7650d000001'), addresses: [], created_at: 2015-03-08 04:55:53 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 04:55:53 UTC>
+D, [2015-03-07T21:55:53.021688 #25869] DEBUG -- : Poc
+D, [2015-03-07T21:55:53.032831 #25869] DEBUG -- : Start Request
+D, [2015-03-07T21:55:53.033242 #25869] DEBUG -- : Executing PUT for endpoint 54fbd6599a96c7650d000001
+D, [2015-03-07T21:55:54.319377 #25909] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T21:55:54.319457 #25909]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T21:55:54.319498 #25909] DEBUG -- : Executing the command
+D, [2015-03-07T21:55:54.319532 #25909] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T21:55:54.319600 #25909] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T21:55:54.319633 #25909] DEBUG -- : Args: []
+D, [2015-03-07T21:55:54.319663 #25909] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T21:55:54.320792 #25909] DEBUG -- : Finding config.ru
+D, [2015-03-07T21:55:54.320835 #25909] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T21:55:54.320859 #25909] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T21:55:54.320883 #25909] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T21:55:54.320914 #25909] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T21:55:54.320937 #25909] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T21:55:54.320960 #25909] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T21:55:54.320982 #25909] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T21:55:54.321004 #25909] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T21:55:54.321034 #25909] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T21:55:54.321062 #25909] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T21:55:54.321085 #25909] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T21:55:54.321109 #25909] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T21:55:54.321130 #25909] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T21:55:54.321168 #25909] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T21:55:54.799711 #25909]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T21:55:54.800472 #25909] DEBUG -- : Validating Database Properties
+D, [2015-03-07T21:55:57.022368 #25925] DEBUG -- : Start Request
+D, [2015-03-07T21:55:57.026592 #25925] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T21:55:57.037042 #25925] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd65d9a96c76545000001'), addresses: [], created_at: 2015-03-08 04:55:57 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 04:55:57 UTC>
+D, [2015-03-07T21:55:57.037190 #25925] DEBUG -- : Poc
+D, [2015-03-07T21:55:57.048232 #25925] DEBUG -- : Start Request
+D, [2015-03-07T21:55:57.048692 #25925] DEBUG -- : Getting POC #{params[:poc_id]}
+D, [2015-03-07T21:55:57.050720 #25925] DEBUG -- : [:include_root_in_json, :include_root_in_json?, :include_root_in_json=, :attribute_aliases, :attribute_aliases?, :attribute_method_matchers, :attribute_method_matchers?, :_accessible_attributes, :_accessible_attributes?, :_accessible_attributes=, :protected_attributes, :protected_attributes?, :protected_attributes=, :_scopes, :_scopes?, :_scopes=, :record_timestamps, :record_timestamps?, :record_timestamps=, :validation_context, :validation_context=, :_validate_callbacks, :_validate_callbacks?, :_validate_callbacks=, :_validators, :_validators?, :_validators=, :_validation_callbacks, :_validation_callbacks?, :_validation_callbacks=, :_save_callbacks, :_save_callbacks?, :_save_callbacks=, :_create_callbacks, :_create_callbacks?, :_create_callbacks=, :_update_callbacks, :_update_callbacks?, :_update_callbacks=, :_destroy_callbacks, :_destroy_callbacks?, :_destroy_callbacks=, :_touch_callbacks, :_touch_callbacks?, :_touch_callbacks=, :first_name_before_type_cast, :middle_name_before_type_cast, :last_name_before_type_cast, :created_by_before_type_cast, :created_at_before_type_cast, :updated_at_before_type_cast, :addresses, :addresses=, :phone_numbers, :phone_numbers=, :emails, :emails=, :marshal_dump, :marshal_load, :save, :delete, :add_to_identity_map, :remove_from_identity_map, :destroy, :touch, :run_callbacks, :valid?, :run_validations!, :validates_inclusion_of, :validates_length_of, :validates_size_of, :validates_presence_of, :validates_format_of, :validates_numericality_of, :validates_exclusion_of, :validates_absence_of, :validates_confirmation_of, :validates_acceptance_of, :errors, :invalid?, :read_attribute_for_validation, :validates_with, :update_timestamps, :serializable_attributes, :serializable_hash, :to_xml, :save_to_collection, :to_param, :to_model, :to_key, :new_record?, :read_attribute, :read_attribute_before_type_cast, :write_attribute, :write_key, :attributes=, :update_attributes, :update_attributes!, :filter_protected_attrs, :accessible_attributes, :accessible_attributes?, :filter_inaccessible_attrs, :attribute_inaccessible?, :collection, :database, :unset, :increment, :decrement, :set, :push, :push_all, :pull, :pull_all, :add_to_set, :push_uniq, :pop, :logger, :reload, :clear_changes, :attribute_method?, :changed?, :changed, :changes, :previous_changes, :changed_attributes, :attribute_changed?, :attribute_was, :method_missing, :attribute_missing, :respond_to_without_attributes?, :respond_to?, :_id, :_id_before_type_cast, :_id=, :_id?, :first_name, :first_name=, :first_name?, :middle_name, :middle_name=, :middle_name?, :last_name, :last_name=, :last_name?, :created_by, :created_by=, :created_by?, :created_at, :created_at=, :created_at?, :updated_at, :updated_at=, :updated_at?, :initialize_from_database, :persisted?, :to_mongo, :attributes, :assign, :update_attribute, :id, :id=, :keys, :read_key, :[], :attribute, :[]=, :key_names, :non_embedded_keys, :embedded_keys, :unalias_key, :inspect, :eql?, :==, :hash, :cache_key, :associations, :embedded_associations, :build_proxy, :get_proxy, :save!, :new?, :destroyed?, :_root_document, :as_json, :from_json, :from_xml, :read_attribute_for_serialization, :to_partial_path, :psych_to_yaml, :to_yaml, :to_yaml_properties, :try, :duplicable?, :acts_like?, :blank?, :present?, :presence, :to_query, :try!, :html_safe?, :`, :deep_dup, :in?, :presence_in, :instance_values, :instance_variable_names, :to_json_with_active_support_encoder, :to_json_without_active_support_encoder, :to_json, :with_options, :commands_from, :program_desc, :program_long_desc, :hide_commands_without_desc, :skips_pre, :skips_post, :skips_around, :config_file, :pre, :post, :around, :on_error, :version, :preserve_argv, :use_openstruct, :accept, :exit_now!, :help_now!, :sort_help, :wrap_help_text, :synopsis_format, :program_name, :default_command, :subcommand_option_handling, :arguments, :error_device=, :context_description, :reset, :exe_name, :commands_declaration_order, :version_string, :get_default_command, :run, :config_file_name, :accepts, :parse_config, :clear_nexts, :stderr, :flags, :switches, :commands, :pre_block, :post_block, :around_blocks, :help_sort_type, :help_text_wrap_type, :synopsis_format_type, :override_defaults_based_on_config, :override_command_defaults, :override_default, :argument_handling_strategy, :subcommand_option_handling_strategy, :desc, :d, :long_desc, :arg_name, :arg, :default_value, :flag, :f, :switch, :s, :command, :c, :flags_declaration_order, :switches_declaration_order, :nil?, :===, :=~, :!~, :<=>, :class, :singleton_class, :clone, :dup, :taint, :tainted?, :untaint, :untrust, :untrusted?, :trust, :freeze, :frozen?, :to_s, :methods, :singleton_methods, :protected_methods, :private_methods, :public_methods, :instance_variables, :instance_variable_get, :instance_variable_set, :instance_variable_defined?, :remove_instance_variable, :instance_of?, :kind_of?, :is_a?, :tap, :send, :public_send, :extend, :display, :method, :public_method, :define_singleton_method, :object_id, :to_enum, :enum_for, :require_with_backports, :silence_warnings, :enable_warnings, :with_warnings, :silence_stderr, :silence_stream, :suppress, :capture, :silence, :quietly, :class_eval, :debugger, :breakpoint, :equal?, :!, :!=, :instance_eval, :instance_exec, :__send__, :__id__]
+D, [2015-03-07T22:03:15.520430 #29631] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T22:03:15.520510 #29631]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T22:03:15.520548 #29631] DEBUG -- : Executing the command
+D, [2015-03-07T22:03:15.520590 #29631] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T22:03:15.520659 #29631] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T22:03:15.520683 #29631] DEBUG -- : Args: []
+D, [2015-03-07T22:03:15.520713 #29631] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T22:03:15.521835 #29631] DEBUG -- : Finding config.ru
+D, [2015-03-07T22:03:15.521881 #29631] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T22:03:15.521906 #29631] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T22:03:15.521931 #29631] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T22:03:15.521955 #29631] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T22:03:15.521986 #29631] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T22:03:15.522009 #29631] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T22:03:15.522037 #29631] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T22:03:15.522059 #29631] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T22:03:15.522081 #29631] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T22:03:15.522106 #29631] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T22:03:15.522127 #29631] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T22:03:15.522150 #29631] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T22:03:15.522171 #29631] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T22:03:15.522207 #29631] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T22:03:15.986871 #29631]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T22:03:15.987633 #29631] DEBUG -- : Validating Database Properties
+D, [2015-03-07T22:03:18.208581 #29640] DEBUG -- : Start Request
+D, [2015-03-07T22:03:18.212770 #29640] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T22:03:18.223089 #29640] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd8169a96c773c8000001'), addresses: [], created_at: 2015-03-08 05:03:18 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 05:03:18 UTC>
+D, [2015-03-07T22:03:18.223192 #29640] DEBUG -- : Poc
+D, [2015-03-07T22:03:19.516102 #29688] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T22:03:19.516175 #29688]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T22:03:19.516207 #29688] DEBUG -- : Executing the command
+D, [2015-03-07T22:03:19.516241 #29688] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T22:03:19.516306 #29688] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T22:03:19.516341 #29688] DEBUG -- : Args: []
+D, [2015-03-07T22:03:19.516372 #29688] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T22:03:19.517498 #29688] DEBUG -- : Finding config.ru
+D, [2015-03-07T22:03:19.517542 #29688] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T22:03:19.517565 #29688] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T22:03:19.517589 #29688] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T22:03:19.517611 #29688] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T22:03:19.517632 #29688] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T22:03:19.517652 #29688] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T22:03:19.517673 #29688] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T22:03:19.517703 #29688] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T22:03:19.517724 #29688] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T22:03:19.517749 #29688] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T22:03:19.517770 #29688] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T22:03:19.517793 #29688] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T22:03:19.517813 #29688] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T22:03:19.517849 #29688] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T22:03:19.987790 #29688]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T22:03:19.988602 #29688] DEBUG -- : Validating Database Properties
+D, [2015-03-07T22:03:22.210769 #29696] DEBUG -- : Start Request
+D, [2015-03-07T22:03:22.215033 #29696] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T22:03:22.225275 #29696] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd81a9a96c77400000001'), addresses: [], created_at: 2015-03-08 05:03:22 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 05:03:22 UTC>
+D, [2015-03-07T22:03:22.225379 #29696] DEBUG -- : Poc
+D, [2015-03-07T22:03:22.235797 #29696] DEBUG -- : Start Request
+D, [2015-03-07T22:03:22.236300 #29696] DEBUG -- : Getting POC #{params[:poc_id]}
+D, [2015-03-07T22:03:22.238372 #29696] DEBUG -- : [:include_root_in_json, :include_root_in_json?, :include_root_in_json=, :attribute_aliases, :attribute_aliases?, :attribute_method_matchers, :attribute_method_matchers?, :_accessible_attributes, :_accessible_attributes?, :_accessible_attributes=, :protected_attributes, :protected_attributes?, :protected_attributes=, :_scopes, :_scopes?, :_scopes=, :record_timestamps, :record_timestamps?, :record_timestamps=, :validation_context, :validation_context=, :_validate_callbacks, :_validate_callbacks?, :_validate_callbacks=, :_validators, :_validators?, :_validators=, :_validation_callbacks, :_validation_callbacks?, :_validation_callbacks=, :_save_callbacks, :_save_callbacks?, :_save_callbacks=, :_create_callbacks, :_create_callbacks?, :_create_callbacks=, :_update_callbacks, :_update_callbacks?, :_update_callbacks=, :_destroy_callbacks, :_destroy_callbacks?, :_destroy_callbacks=, :_touch_callbacks, :_touch_callbacks?, :_touch_callbacks=, :first_name_before_type_cast, :middle_name_before_type_cast, :last_name_before_type_cast, :created_by_before_type_cast, :created_at_before_type_cast, :updated_at_before_type_cast, :addresses, :addresses=, :phone_numbers, :phone_numbers=, :emails, :emails=, :marshal_dump, :marshal_load, :save, :delete, :add_to_identity_map, :remove_from_identity_map, :destroy, :touch, :run_callbacks, :valid?, :run_validations!, :validates_inclusion_of, :validates_length_of, :validates_size_of, :validates_presence_of, :validates_format_of, :validates_numericality_of, :validates_exclusion_of, :validates_absence_of, :validates_confirmation_of, :validates_acceptance_of, :errors, :invalid?, :read_attribute_for_validation, :validates_with, :update_timestamps, :serializable_attributes, :serializable_hash, :to_xml, :save_to_collection, :to_param, :to_model, :to_key, :new_record?, :read_attribute, :read_attribute_before_type_cast, :write_attribute, :write_key, :attributes=, :update_attributes, :update_attributes!, :filter_protected_attrs, :accessible_attributes, :accessible_attributes?, :filter_inaccessible_attrs, :attribute_inaccessible?, :collection, :database, :unset, :increment, :decrement, :set, :push, :push_all, :pull, :pull_all, :add_to_set, :push_uniq, :pop, :logger, :reload, :clear_changes, :attribute_method?, :changed?, :changed, :changes, :previous_changes, :changed_attributes, :attribute_changed?, :attribute_was, :method_missing, :attribute_missing, :respond_to_without_attributes?, :respond_to?, :_id, :_id_before_type_cast, :_id=, :_id?, :first_name, :first_name=, :first_name?, :middle_name, :middle_name=, :middle_name?, :last_name, :last_name=, :last_name?, :created_by, :created_by=, :created_by?, :created_at, :created_at=, :created_at?, :updated_at, :updated_at=, :updated_at?, :initialize_from_database, :persisted?, :to_mongo, :attributes, :assign, :update_attribute, :id, :id=, :keys, :read_key, :[], :attribute, :[]=, :key_names, :non_embedded_keys, :embedded_keys, :unalias_key, :inspect, :eql?, :==, :hash, :cache_key, :associations, :embedded_associations, :build_proxy, :get_proxy, :save!, :new?, :destroyed?, :_root_document, :as_json, :from_json, :from_xml, :read_attribute_for_serialization, :to_partial_path, :psych_to_yaml, :to_yaml, :to_yaml_properties, :try, :duplicable?, :acts_like?, :blank?, :present?, :presence, :to_query, :try!, :html_safe?, :`, :deep_dup, :in?, :presence_in, :instance_values, :instance_variable_names, :to_json_with_active_support_encoder, :to_json_without_active_support_encoder, :to_json, :with_options, :commands_from, :program_desc, :program_long_desc, :hide_commands_without_desc, :skips_pre, :skips_post, :skips_around, :config_file, :pre, :post, :around, :on_error, :version, :preserve_argv, :use_openstruct, :accept, :exit_now!, :help_now!, :sort_help, :wrap_help_text, :synopsis_format, :program_name, :default_command, :subcommand_option_handling, :arguments, :error_device=, :context_description, :reset, :exe_name, :commands_declaration_order, :version_string, :get_default_command, :run, :config_file_name, :accepts, :parse_config, :clear_nexts, :stderr, :flags, :switches, :commands, :pre_block, :post_block, :around_blocks, :help_sort_type, :help_text_wrap_type, :synopsis_format_type, :override_defaults_based_on_config, :override_command_defaults, :override_default, :argument_handling_strategy, :subcommand_option_handling_strategy, :desc, :d, :long_desc, :arg_name, :arg, :default_value, :flag, :f, :switch, :s, :command, :c, :flags_declaration_order, :switches_declaration_order, :nil?, :===, :=~, :!~, :<=>, :class, :singleton_class, :clone, :dup, :taint, :tainted?, :untaint, :untrust, :untrusted?, :trust, :freeze, :frozen?, :to_s, :methods, :singleton_methods, :protected_methods, :private_methods, :public_methods, :instance_variables, :instance_variable_get, :instance_variable_set, :instance_variable_defined?, :remove_instance_variable, :instance_of?, :kind_of?, :is_a?, :tap, :send, :public_send, :extend, :display, :method, :public_method, :define_singleton_method, :object_id, :to_enum, :enum_for, :require_with_backports, :silence_warnings, :enable_warnings, :with_warnings, :silence_stderr, :silence_stream, :suppress, :capture, :silence, :quietly, :class_eval, :debugger, :breakpoint, :equal?, :!, :!=, :instance_eval, :instance_exec, :__send__, :__id__]
+D, [2015-03-07T22:03:23.584199 #29744] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T22:03:23.584273 #29744]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T22:03:23.584314 #29744] DEBUG -- : Executing the command
+D, [2015-03-07T22:03:23.584348 #29744] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T22:03:23.584414 #29744] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T22:03:23.584437 #29744] DEBUG -- : Args: []
+D, [2015-03-07T22:03:23.584467 #29744] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T22:03:23.585625 #29744] DEBUG -- : Finding config.ru
+D, [2015-03-07T22:03:23.585670 #29744] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T22:03:23.585695 #29744] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T22:03:23.585720 #29744] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T22:03:23.585742 #29744] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T22:03:23.585764 #29744] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T22:03:23.585784 #29744] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T22:03:23.585806 #29744] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T22:03:23.585827 #29744] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T22:03:23.585849 #29744] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T22:03:23.585870 #29744] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T22:03:23.585895 #29744] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T22:03:23.585917 #29744] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T22:03:23.585938 #29744] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T22:03:23.585973 #29744] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T22:03:24.061672 #29744]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T22:03:24.062464 #29744] DEBUG -- : Validating Database Properties
+D, [2015-03-07T22:03:26.286232 #29752] DEBUG -- : Start Request
+D, [2015-03-07T22:03:26.290550 #29752] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T22:03:26.300671 #29752] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd81e9a96c77438000001'), addresses: [], created_at: 2015-03-08 05:03:26 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 05:03:26 UTC>
+D, [2015-03-07T22:03:26.300773 #29752] DEBUG -- : Poc
+D, [2015-03-07T22:03:26.311497 #29752] DEBUG -- : Start Request
+D, [2015-03-07T22:03:26.311908 #29752] DEBUG -- : Executing PUT for endpoint 54fbd81e9a96c77438000001
+D, [2015-03-07T22:03:27.701773 #29800] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T22:03:27.701860 #29800]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T22:03:27.701895 #29800] DEBUG -- : Executing the command
+D, [2015-03-07T22:03:27.701937 #29800] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T22:03:27.702005 #29800] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T22:03:27.702035 #29800] DEBUG -- : Args: []
+D, [2015-03-07T22:03:27.702065 #29800] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T22:03:27.703183 #29800] DEBUG -- : Finding config.ru
+D, [2015-03-07T22:03:27.703227 #29800] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T22:03:27.703251 #29800] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T22:03:27.703275 #29800] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T22:03:27.703297 #29800] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T22:03:27.703319 #29800] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T22:03:27.703339 #29800] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T22:03:27.703361 #29800] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T22:03:27.703391 #29800] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T22:03:27.703414 #29800] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T22:03:27.703439 #29800] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T22:03:27.703460 #29800] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T22:03:27.703482 #29800] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T22:03:27.703503 #29800] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T22:03:27.703538 #29800] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T22:03:28.189995 #29800]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T22:03:28.190817 #29800] DEBUG -- : Validating Database Properties
+D, [2015-03-07T22:03:30.416164 #29816] DEBUG -- : Start Request
+D, [2015-03-07T22:03:30.420418 #29816] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T22:03:30.430444 #29816] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd8229a96c77478000001'), addresses: [], created_at: 2015-03-08 05:03:30 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 05:03:30 UTC>
+D, [2015-03-07T22:03:30.430547 #29816] DEBUG -- : Poc
+D, [2015-03-07T22:03:31.806778 #29866] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T22:03:31.806852 #29866]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T22:03:31.806886 #29866] DEBUG -- : Executing the command
+D, [2015-03-07T22:03:31.806925 #29866] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T22:03:31.806999 #29866] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T22:03:31.807030 #29866] DEBUG -- : Args: []
+D, [2015-03-07T22:03:31.807061 #29866] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T22:03:31.808181 #29866] DEBUG -- : Finding config.ru
+D, [2015-03-07T22:03:31.808224 #29866] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T22:03:31.808248 #29866] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T22:03:31.808273 #29866] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T22:03:31.808295 #29866] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T22:03:31.808317 #29866] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T22:03:31.808338 #29866] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T22:03:31.808360 #29866] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T22:03:31.808381 #29866] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T22:03:31.808403 #29866] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T22:03:31.808429 #29866] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T22:03:31.808450 #29866] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T22:03:31.808473 #29866] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T22:03:31.808493 #29866] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T22:03:31.808530 #29866] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T22:03:32.291053 #29866]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T22:03:32.291807 #29866] DEBUG -- : Validating Database Properties
+D, [2015-03-07T22:03:34.516127 #29884] DEBUG -- : Start Request
+D, [2015-03-07T22:03:34.520395 #29884] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T22:03:34.530617 #29884] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd8269a96c774bc000001'), addresses: [], created_at: 2015-03-08 05:03:34 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 05:03:34 UTC>
+D, [2015-03-07T22:03:34.530718 #29884] DEBUG -- : Poc
+D, [2015-03-07T22:03:34.541505 #29884] DEBUG -- : Start Request
+D, [2015-03-07T22:03:34.541799 #29884] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T22:03:34.544240 #29884] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd8269a96c774bc000002'), addresses: [], created_at: 2015-03-08 05:03:34 UTC, emails: [], first_name: "Jack", last_name: "Reed", middle_name: "Ralph", phone_numbers: [], updated_at: 2015-03-08 05:03:34 UTC>
+D, [2015-03-07T22:03:34.544310 #29884] DEBUG -- : Poc
+D, [2015-03-07T22:03:34.548496 #29884] DEBUG -- : Start Request
+D, [2015-03-07T22:03:34.548848 #29884] DEBUG -- : Getting all POCs
+D, [2015-03-07T22:03:34.548996 #29884] DEBUG -- : {}
+D, [2015-03-07T22:04:41.258856 #30463] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T22:04:41.258939 #30463]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T22:04:41.258973 #30463] DEBUG -- : Executing the command
+D, [2015-03-07T22:04:41.259007 #30463] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T22:04:41.259083 #30463] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T22:04:41.259118 #30463] DEBUG -- : Args: []
+D, [2015-03-07T22:04:41.259148 #30463] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T22:04:41.260285 #30463] DEBUG -- : Finding config.ru
+D, [2015-03-07T22:04:41.260330 #30463] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T22:04:41.260355 #30463] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T22:04:41.260380 #30463] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T22:04:41.260402 #30463] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T22:04:41.260425 #30463] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T22:04:41.260446 #30463] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T22:04:41.260468 #30463] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T22:04:41.260489 #30463] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T22:04:41.260511 #30463] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T22:04:41.260537 #30463] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T22:04:41.260558 #30463] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T22:04:41.260581 #30463] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T22:04:41.260601 #30463] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T22:04:41.260637 #30463] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T22:04:41.742268 #30463]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T22:04:41.743061 #30463] DEBUG -- : Validating Database Properties
+D, [2015-03-07T22:04:43.971375 #30479] DEBUG -- : Start Request
+D, [2015-03-07T22:04:43.975615 #30479] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T22:04:43.985881 #30479] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd86b9a96c7770f000001'), addresses: [], created_at: 2015-03-08 05:04:43 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 05:04:43 UTC>
+D, [2015-03-07T22:04:43.985986 #30479] DEBUG -- : Poc
+D, [2015-03-07T22:04:43.998072 #30479] DEBUG -- : Start Request
+D, [2015-03-07T22:04:43.998414 #30479] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T22:04:44.001089 #30479] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd86b9a96c7770f000002'), addresses: [], created_at: 2015-03-08 05:04:43 UTC, emails: [], first_name: "Jane", last_name: "Moe", middle_name: "Mary", phone_numbers: [], updated_at: 2015-03-08 05:04:43 UTC>
+D, [2015-03-07T22:04:44.001163 #30479] DEBUG -- : Poc
+D, [2015-03-07T22:04:44.005014 #30479] DEBUG -- : Start Request
+D, [2015-03-07T22:04:44.005317 #30479] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T22:04:44.007725 #30479] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd86c9a96c7770f000003'), addresses: [], created_at: 2015-03-08 05:04:44 UTC, emails: [], first_name: "Jack", last_name: "Reed", middle_name: "Ralph", phone_numbers: [], updated_at: 2015-03-08 05:04:44 UTC>
+D, [2015-03-07T22:04:44.007796 #30479] DEBUG -- : Poc
+D, [2015-03-07T22:04:44.011244 #30479] DEBUG -- : Start Request
+D, [2015-03-07T22:04:44.011596 #30479] DEBUG -- : Getting all POCs
+D, [2015-03-07T22:04:44.011727 #30479] DEBUG -- : {}
+D, [2015-03-07T22:04:45.262379 #30519] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T22:04:45.262460 #30519]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T22:04:45.262495 #30519] DEBUG -- : Executing the command
+D, [2015-03-07T22:04:45.262537 #30519] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T22:04:45.262605 #30519] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T22:04:45.262628 #30519] DEBUG -- : Args: []
+D, [2015-03-07T22:04:45.262658 #30519] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T22:04:45.263772 #30519] DEBUG -- : Finding config.ru
+D, [2015-03-07T22:04:45.263816 #30519] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T22:04:45.263845 #30519] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T22:04:45.263885 #30519] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T22:04:45.263915 #30519] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T22:04:45.263937 #30519] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T22:04:45.263959 #30519] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T22:04:45.263980 #30519] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T22:04:45.264012 #30519] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T22:04:45.264040 #30519] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T22:04:45.264066 #30519] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T22:04:45.264087 #30519] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T22:04:45.264110 #30519] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T22:04:45.264130 #30519] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T22:04:45.264166 #30519] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T22:04:45.733622 #30519]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T22:04:45.734381 #30519] DEBUG -- : Validating Database Properties
+D, [2015-03-07T22:04:47.952933 #30536] DEBUG -- : Start Request
+D, [2015-03-07T22:04:47.957211 #30536] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T22:04:47.967436 #30536] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd86f9a96c77748000001'), addresses: [], created_at: 2015-03-08 05:04:47 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 05:04:47 UTC>
+D, [2015-03-07T22:04:47.967546 #30536] DEBUG -- : Poc
+D, [2015-03-07T22:04:47.978418 #30536] DEBUG -- : Start Request
+D, [2015-03-07T22:04:47.978805 #30536] DEBUG -- : Executing PUT for endpoint 54fbd86f9a96c77748000001
+D, [2015-03-07T22:04:49.402140 #30576] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T22:04:49.402216 #30576]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T22:04:49.402251 #30576] DEBUG -- : Executing the command
+D, [2015-03-07T22:04:49.402284 #30576] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T22:04:49.402352 #30576] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T22:04:49.402386 #30576] DEBUG -- : Args: []
+D, [2015-03-07T22:04:49.402417 #30576] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T22:04:49.403577 #30576] DEBUG -- : Finding config.ru
+D, [2015-03-07T22:04:49.403623 #30576] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T22:04:49.403649 #30576] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T22:04:49.403675 #30576] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T22:04:49.403698 #30576] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T22:04:49.403721 #30576] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T22:04:49.403742 #30576] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T22:04:49.403764 #30576] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T22:04:49.403785 #30576] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T22:04:49.403808 #30576] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T22:04:49.403833 #30576] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T22:04:49.403855 #30576] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T22:04:49.403878 #30576] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T22:04:49.403899 #30576] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T22:04:49.403937 #30576] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T22:04:49.879273 #30576]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T22:04:49.880058 #30576] DEBUG -- : Validating Database Properties
+D, [2015-03-07T22:04:52.102274 #30592] DEBUG -- : Start Request
+D, [2015-03-07T22:04:52.106535 #30592] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T22:04:52.116901 #30592] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd8749a96c77780000001'), addresses: [], created_at: 2015-03-08 05:04:52 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 05:04:52 UTC>
+D, [2015-03-07T22:04:52.117002 #30592] DEBUG -- : Poc
+D, [2015-03-07T22:04:53.422757 #30632] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T22:04:53.422854 #30632]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T22:04:53.422889 #30632] DEBUG -- : Executing the command
+D, [2015-03-07T22:04:53.422922 #30632] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T22:04:53.422987 #30632] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T22:04:53.423028 #30632] DEBUG -- : Args: []
+D, [2015-03-07T22:04:53.423060 #30632] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T22:04:53.424200 #30632] DEBUG -- : Finding config.ru
+D, [2015-03-07T22:04:53.424244 #30632] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T22:04:53.424268 #30632] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T22:04:53.424292 #30632] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T22:04:53.424314 #30632] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T22:04:53.424335 #30632] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T22:04:53.424355 #30632] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T22:04:53.424377 #30632] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T22:04:53.424397 #30632] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T22:04:53.424418 #30632] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T22:04:53.424443 #30632] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T22:04:53.424464 #30632] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T22:04:53.424486 #30632] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T22:04:53.424507 #30632] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T22:04:53.424543 #30632] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T22:04:53.897427 #30632]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T22:04:53.898200 #30632] DEBUG -- : Validating Database Properties
+D, [2015-03-07T22:04:56.117064 #30648] DEBUG -- : Start Request
+D, [2015-03-07T22:04:56.121274 #30648] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T22:04:56.129602 #30648] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd8789a96c777b8000001'), addresses: [], created_at: 2015-03-08 05:04:56 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 05:04:56 UTC>
+D, [2015-03-07T22:04:56.129697 #30648] DEBUG -- : Poc
+D, [2015-03-07T22:04:56.137965 #30648] DEBUG -- : Start Request
+D, [2015-03-07T22:04:56.138315 #30648] DEBUG -- : Getting POC #{params[:poc_id]}
+D, [2015-03-07T22:04:56.139986 #30648] DEBUG -- : [:include_root_in_json, :include_root_in_json?, :include_root_in_json=, :attribute_aliases, :attribute_aliases?, :attribute_method_matchers, :attribute_method_matchers?, :_accessible_attributes, :_accessible_attributes?, :_accessible_attributes=, :protected_attributes, :protected_attributes?, :protected_attributes=, :_scopes, :_scopes?, :_scopes=, :record_timestamps, :record_timestamps?, :record_timestamps=, :validation_context, :validation_context=, :_validate_callbacks, :_validate_callbacks?, :_validate_callbacks=, :_validators, :_validators?, :_validators=, :_validation_callbacks, :_validation_callbacks?, :_validation_callbacks=, :_save_callbacks, :_save_callbacks?, :_save_callbacks=, :_create_callbacks, :_create_callbacks?, :_create_callbacks=, :_update_callbacks, :_update_callbacks?, :_update_callbacks=, :_destroy_callbacks, :_destroy_callbacks?, :_destroy_callbacks=, :_touch_callbacks, :_touch_callbacks?, :_touch_callbacks=, :first_name_before_type_cast, :middle_name_before_type_cast, :last_name_before_type_cast, :created_by_before_type_cast, :created_at_before_type_cast, :updated_at_before_type_cast, :addresses, :addresses=, :phone_numbers, :phone_numbers=, :emails, :emails=, :marshal_dump, :marshal_load, :save, :delete, :add_to_identity_map, :remove_from_identity_map, :destroy, :touch, :run_callbacks, :valid?, :run_validations!, :validates_inclusion_of, :validates_length_of, :validates_size_of, :validates_presence_of, :validates_format_of, :validates_numericality_of, :validates_exclusion_of, :validates_absence_of, :validates_confirmation_of, :validates_acceptance_of, :errors, :invalid?, :read_attribute_for_validation, :validates_with, :update_timestamps, :serializable_attributes, :serializable_hash, :to_xml, :save_to_collection, :to_param, :to_model, :to_key, :new_record?, :read_attribute, :read_attribute_before_type_cast, :write_attribute, :write_key, :attributes=, :update_attributes, :update_attributes!, :filter_protected_attrs, :accessible_attributes, :accessible_attributes?, :filter_inaccessible_attrs, :attribute_inaccessible?, :collection, :database, :unset, :increment, :decrement, :set, :push, :push_all, :pull, :pull_all, :add_to_set, :push_uniq, :pop, :logger, :reload, :clear_changes, :attribute_method?, :changed?, :changed, :changes, :previous_changes, :changed_attributes, :attribute_changed?, :attribute_was, :method_missing, :attribute_missing, :respond_to_without_attributes?, :respond_to?, :_id, :_id_before_type_cast, :_id=, :_id?, :first_name, :first_name=, :first_name?, :middle_name, :middle_name=, :middle_name?, :last_name, :last_name=, :last_name?, :created_by, :created_by=, :created_by?, :created_at, :created_at=, :created_at?, :updated_at, :updated_at=, :updated_at?, :initialize_from_database, :persisted?, :to_mongo, :attributes, :assign, :update_attribute, :id, :id=, :keys, :read_key, :[], :attribute, :[]=, :key_names, :non_embedded_keys, :embedded_keys, :unalias_key, :inspect, :eql?, :==, :hash, :cache_key, :associations, :embedded_associations, :build_proxy, :get_proxy, :save!, :new?, :destroyed?, :_root_document, :as_json, :from_json, :from_xml, :read_attribute_for_serialization, :to_partial_path, :psych_to_yaml, :to_yaml, :to_yaml_properties, :try, :duplicable?, :acts_like?, :blank?, :present?, :presence, :to_query, :try!, :html_safe?, :`, :deep_dup, :in?, :presence_in, :instance_values, :instance_variable_names, :to_json_with_active_support_encoder, :to_json_without_active_support_encoder, :to_json, :with_options, :commands_from, :program_desc, :program_long_desc, :hide_commands_without_desc, :skips_pre, :skips_post, :skips_around, :config_file, :pre, :post, :around, :on_error, :version, :preserve_argv, :use_openstruct, :accept, :exit_now!, :help_now!, :sort_help, :wrap_help_text, :synopsis_format, :program_name, :default_command, :subcommand_option_handling, :arguments, :error_device=, :context_description, :reset, :exe_name, :commands_declaration_order, :version_string, :get_default_command, :run, :config_file_name, :accepts, :parse_config, :clear_nexts, :stderr, :flags, :switches, :commands, :pre_block, :post_block, :around_blocks, :help_sort_type, :help_text_wrap_type, :synopsis_format_type, :override_defaults_based_on_config, :override_command_defaults, :override_default, :argument_handling_strategy, :subcommand_option_handling_strategy, :desc, :d, :long_desc, :arg_name, :arg, :default_value, :flag, :f, :switch, :s, :command, :c, :flags_declaration_order, :switches_declaration_order, :nil?, :===, :=~, :!~, :<=>, :class, :singleton_class, :clone, :dup, :taint, :tainted?, :untaint, :untrust, :untrusted?, :trust, :freeze, :frozen?, :to_s, :methods, :singleton_methods, :protected_methods, :private_methods, :public_methods, :instance_variables, :instance_variable_get, :instance_variable_set, :instance_variable_defined?, :remove_instance_variable, :instance_of?, :kind_of?, :is_a?, :tap, :send, :public_send, :extend, :display, :method, :public_method, :define_singleton_method, :object_id, :to_enum, :enum_for, :require_with_backports, :silence_warnings, :enable_warnings, :with_warnings, :silence_stderr, :silence_stream, :suppress, :capture, :silence, :quietly, :class_eval, :debugger, :breakpoint, :equal?, :!, :!=, :instance_eval, :instance_exec, :__send__, :__id__]
+D, [2015-03-07T22:04:57.544206 #30688] DEBUG -- : Adding 'db_props_loc => /home/sean.humbarger/workspace/github/poc-app/libraries/service/lib/net/lorynto/poc/service/../../../../../config/db-props.yml'' to properties
+W, [2015-03-07T22:04:57.544280 #30688]  WARN -- : The 'db_props_loc' already exists as a property.  Updating it...
+D, [2015-03-07T22:04:57.544314 #30688] DEBUG -- : Executing the command
+D, [2015-03-07T22:04:57.544347 #30688] DEBUG -- : Global Options: {"version"=>false, :version=>false, "help"=>false, :help=>false}
+D, [2015-03-07T22:04:57.544416 #30688] DEBUG -- : Options: {"i"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :i=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "pid"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", :pid=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "l"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :l=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "log"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", :log=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "d"=>"debug", :d=>"debug", "debug"=>"debug", :debug=>"debug", "c"=>"poc-service", :c=>"poc-service", "context"=>"poc-service", :context=>"poc-service", "e"=>"thin", :e=>"thin", "server"=>"thin", :server=>"thin", "o"=>"4242", :o=>"4242", "port"=>"4242", :port=>"4242", "n"=>"0.0.0.0", :n=>"0.0.0.0", "bind"=>"0.0.0.0", :bind=>"0.0.0.0", "b"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :b=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", "db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml", :"db-props"=>"/home/sean.humbarger/workspace/github/poc-app/libraries/service/config/db-props.yml"}
+D, [2015-03-07T22:04:57.544440 #30688] DEBUG -- : Args: []
+D, [2015-03-07T22:04:57.544470 #30688] DEBUG -- : root_dir: /home/sean.humbarger/workspace/github/poc-app/libraries/service
+D, [2015-03-07T22:04:57.545623 #30688] DEBUG -- : Finding config.ru
+D, [2015-03-07T22:04:57.545668 #30688] DEBUG -- : Binding server to '0.0.0.0'
+D, [2015-03-07T22:04:57.545693 #30688] DEBUG -- : Setting the port to '4242'
+D, [2015-03-07T22:04:57.545718 #30688] DEBUG -- : Adding 'port => 4242'' to properties
+D, [2015-03-07T22:04:57.545740 #30688] DEBUG -- : Setting the server type to 'thin'
+D, [2015-03-07T22:04:57.545762 #30688] DEBUG -- : Adding 'server => thin'' to properties
+D, [2015-03-07T22:04:57.545783 #30688] DEBUG -- : Setting the pid to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'
+D, [2015-03-07T22:04:57.545806 #30688] DEBUG -- : Adding 'pid => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid'' to properties
+D, [2015-03-07T22:04:57.545827 #30688] DEBUG -- : Logging to '/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'
+D, [2015-03-07T22:04:57.545849 #30688] DEBUG -- : Adding 'log => /home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log'' to properties
+D, [2015-03-07T22:04:57.545886 #30688] DEBUG -- : Daemonizing 'thin'
+D, [2015-03-07T22:04:57.545909 #30688] DEBUG -- : Adding 'daemonize => true'' to properties
+D, [2015-03-07T22:04:57.545932 #30688] DEBUG -- : Adding 'context-path => poc-service'' to properties
+D, [2015-03-07T22:04:57.545952 #30688] DEBUG -- : Starting the poc-service application...
+D, [2015-03-07T22:04:57.545990 #30688] DEBUG -- : ["-O", "config=/home/sean.humbarger/workspace/github/poc-app/libraries/service/config.ru", "-o", "0.0.0.0", "-p", "4242", "--server", "thin", "--pid", "/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.pid", "-O", "log=/home/sean.humbarger/workspace/github/poc-app/libraries/service/test/poc-service.log", "--daemonize"]
+I, [2015-03-07T22:04:58.018339 #30688]  INFO -- : Loading /home/sean.humbarger/.gem/ruby/gems/poc-dao-1.0.0/lib/net/lorynto/poc/dao/../../../../../config/db-props.yml
+D, [2015-03-07T22:04:58.019099 #30688] DEBUG -- : Validating Database Properties
+D, [2015-03-07T22:05:00.240168 #30704] DEBUG -- : Start Request
+D, [2015-03-07T22:05:00.244347 #30704] DEBUG -- : Executing PUT for endpoint 
+D, [2015-03-07T22:05:00.254514 #30704] DEBUG -- : #<Poc _id: BSON::ObjectId('54fbd87c9a96c777f0000001'), addresses: [], created_at: 2015-03-08 05:05:00 UTC, emails: [], first_name: "John", last_name: "Doe", middle_name: "Smith", phone_numbers: [], updated_at: 2015-03-08 05:05:00 UTC>
+D, [2015-03-07T22:05:00.254618 #30704] DEBUG -- : Poc

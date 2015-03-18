@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+# This is the entrypoint for the CLI of this service.  It is intended to be used to start and stop the service.
+
+# Dev Mode
+$:.unshift(File.join(File.dirname(__FILE__),'..','lib'))
+require 'poc-service-cli'
+
+# Production
+#require 'poc-service-cli'
+
+# Modules
+include ::Service::Cli

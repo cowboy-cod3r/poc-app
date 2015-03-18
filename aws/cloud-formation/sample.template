@@ -1,0 +1,29 @@
+// Not for real use.  Template Anatomy
+
+{
+  // The latest available format version is 2010-09-09
+  "AWSTemplateFormatVersion" : "2010-09-09",
+
+  "Description" : "JSON string",
+
+  "Parameters" : {
+    set of parameters
+  },
+
+  "Mappings" : {
+    set of mappings
+  },
+
+  "Conditions" : {
+    set of conditions
+  },
+
+  "Resources" : {
+    set of resources
+    this is the only required section of the template
+  },
+
+  "Outputs" : {
+    set of outputs
+  }
+}

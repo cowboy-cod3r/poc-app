@@ -1,0 +1,11 @@
+{
+  "bootstrap_expect": REPLACE_SERVER_COUNT,
+  "server": true,
+  "datacenter": "aws",
+  "data_dir": "/var/consul",
+  "encrypt": "X4SYOinf2pTAcAHRhpj7dA==",
+  "log_level": "INFO",
+  "enable_syslog": false,
+  "start_join": [REPLACE_CONSUL_SERVERS],
+  "advertise_addr": "REPLACE_HOSTING_IP"
+}

@@ -1,0 +1,10 @@
+.autotest
+.gitignore
+History.txt
+Manifest.txt
+README.md
+README.txt
+Rakefile
+VERSION
+lib/poc-logger.rb
+lib/net/lorynto/poc/logger.rb

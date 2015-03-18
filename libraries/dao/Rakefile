@@ -1,0 +1,35 @@
+# -*- ruby -*-
+
+# Class path
+$:.unshift(File.dirname(__FILE__))
+
+# Libraries
+require 'rubygems'
+require 'hoe'
+require 'version_bumper'
+
+# Hoe Spec
+Hoe.spec 'poc-dao' do
+  self.version        = File.read(File.join(File.dirname(__FILE__),'VERSION'))
+  self.developer      'Sean Humbarger', 'sean.humbarger@gmail.com'
+  self.description    = 'Common DAO Library for POC services.'
+  self.summary        = 'Common DAO Library.'
+  self.license        'MIT'
+  self.readme_file    = 'README.md'
+  self.extra_deps     = [
+  	['poc-logger',          '~> 1.0'    ],
+  	['ruby-enum',           '~> 0.4'    ],
+  	['json',                '~> 1.8'    ],
+    ['bson_ext',            '~> 1.12'   ],
+    ['mongo_mapper',        '~> 0.13'   ]
+  ]
+  self.extra_dev_deps = [
+    ['yard',            '~> 0.8'  ],
+  	['version_bumper',  '~> 0.3'  ],
+  	['bundler',         '~> 1.7'  ],
+  	['minitest',        '~> 5.4'  ]
+  ]
+
+end
+
+# vim: syntax=ruby

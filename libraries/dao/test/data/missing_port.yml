@@ -1,0 +1,5 @@
+#
+# These are the default parameters for connecting to mongo
+---
+:host:          localhost
+:database:      poc

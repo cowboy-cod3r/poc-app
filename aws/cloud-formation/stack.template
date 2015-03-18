@@ -1,0 +1,46 @@
+{
+  "AWSTemplateFormatVersion" : "2010-09-09",
+  "Description" : "This stack build the infrastructure for the POC Service Application",
+  "Parameters" : {
+    "InstanceTypeParameter" : {
+      "Type" : "String",
+      "Default" : "t1.micro",
+      "AllowedValues" : ["t1.micro", "m1.small", "m1.large"],
+      "Description" : "Enter t1.micro, m1.small, or m1.large. Default is t1.micro."
+    }
+  },
+  "Mappings" : {
+    "RegionMap" : {
+      "us-west-1" : { "64" : "ami-594c6169" }
+    }
+  },
+  "Resources" : {
+    "sec-ssh" : {
+      "Type" : "AWS::EC2::SecurityGroup",
+      "Properties" :{
+          "GroupDescription" : "Allow SSH",
+          "SecurityGroupIngress" : [{
+                "IpProtocol" : "tcp",
+                "FromPort" : "22",
+                "ToPort" : "22",
+                "CidrIp" : "0.0.0.0/0"
+             }],
+          "SecurityGroupEgress" : [{
+             "IpProtocol" : "tcp",
+             "FromPort" : "22",
+             "ToPort" : "22",
+             "CidrIp" : "0.0.0.0/0"
+          }],
+          "Tags" :  [ Resource Tag, ... ],
+          "VpcId" : String
+      }
+    },
+    "consul-server" : {
+      "Type" : "AWS::EC2::Instance",
+      "Properties" : {
+          "AvailabilityZone" : "us-west-1",
+          "ImageId" : { "Fn::FindInMap" : [ "RegionMap", { "Ref" : "AWS::Region" }, "64"]}
+      }
+    }
+  }
+}
